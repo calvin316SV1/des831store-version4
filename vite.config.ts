@@ -5,7 +5,7 @@ import path from 'path'
 // ✅ Configuración optimizada para Vercel + React + Tailwind + TypeScript
 export default defineConfig({
   root: '.',
-  base: './',
+  base: './', //
   plugins: [react()],
   resolve: {
     alias: {
