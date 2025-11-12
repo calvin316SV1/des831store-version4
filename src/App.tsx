@@ -16,7 +16,8 @@ const AppRoutes = () => {
 function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter basename={__BASE_PATH__}>
+      <BrowserRouter basename="/">
+
         <div className="App">
           <LanguageSwitcher />
           <Header />
